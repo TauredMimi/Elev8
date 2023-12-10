@@ -54,7 +54,7 @@ public class cgpaCalculator {
 
         if (totalGradeUnits > 0) {
             double CGPA = totalGradePoints / totalGradeUnits;
-            System.out.printf("Your CGPA is = %.2f to 2 decimal places.%2Remember hardwork pays", CGPA);
+            System.out.printf("Your CGPA is = %.2f to 2 decimal places.%nRemember hardwork pays", CGPA);
         } else {
             System.out.println("No courses entered. CGPA cannot be calculated.");
         }
